@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<body background="assets/images/snow-background.png">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hangman</title>
+
+		<link rel="icon" type="image/png" href="./assets/images/noose.png">
+        <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	</head>
+	<body>
+            <div id="snow"></div>
+		<div id="main-content">
+			
+			<div id="title">
+				<p>Holiday Hangman!</p>
+			</div>
+
+			<div id="instruction">
+				<p>Press Any Key To Start!</p>
+            </div>
+            
+            <div id=alerts>
+				<p><span class="alert-line"></span></p>
+				<p><span class="alert-line"></span></p>
+				<p><span class="alert-line"></span></p>
+				<p><span class="alert-line"></span></p>
+				<p><span class="alert-line"></span></p>
+
+            <img src="assets/images/santa-clause-in-costume-carrying-sack_1262-15966.png" alt="Santa">
+			
+
+			<div id="game-div" class="panel">
+				<div id="word-display">
+					<p id="word-display-letters"></p>
+				</div>
+
+				<div id="general-display">
+					<p>Guessed Letters</p>
+                    <span id="guessed-letters"></span> 
+                    <br>
+                    <br>
+                    <p>Stats</p>
+                    <br>
+                    <p>Incorrect Letters: <span id="error-count"></span></p>
+                    <p>Wins: <span id="win-count"></span></p>
+					<p>Losses: <span id="loss-count"></span></p>
+					
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="./assets/javascript/game.js"></script>
+	</body>
+</html>
+ 
